@@ -1,0 +1,33 @@
+h1{
+  color:rgb(245, 233, 77)
+
+}
+h1{
+  background:rgb(147, 149, 151);
+  /* border-color:rgb(245, 233, 77);
+  border-width: 1px;
+  border-style:solid; */
+
+  border:2px dashed rgb(245, 233, 77);
+}
+
+body{
+  color:rgb(147, 149, 151);
+  font-weight: bold;
+}
+
+body{
+  background:green;
+}
+
+body{
+  background: url(https://wallpaperaccess.com/full/450751.jpg)
+
+  /* background: url(https://images.ctfassets.net/hrltx12pl8hq/5GaLeZJlLyOiQC4gOA0qUM/a0398c237e9744ade8b072f99349e07a/shutterstock_152461202_thumb.jpg?fit=fill&w=480&h=270) */
+
+  /** Question: Why my background repeat and cover don't work? */
+  /* background-repeat: no-repeat; */
+  /* background-size:cover; */
+
+
+}
