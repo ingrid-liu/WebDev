@@ -1,0 +1,31 @@
+img{
+  width:400px;
+  /* margin-left: 200px; */
+  float:left;
+}
+
+
+body{
+  border: 5px grey solid;
+  font-family: Arial;
+  font-size:17px;
+
+}
+
+
+h1{
+  color:#ccccff;
+  text-align: center;
+  text-transform: uppercase;;
+}
+a{
+  color:blue;
+  font-weight: bold;
+}
+p2{
+  text-decoration: underline;
+}
+
+.out{
+  margin: 20px;
+}
