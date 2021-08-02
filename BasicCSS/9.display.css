@@ -1,0 +1,19 @@
+h1{
+  background-color: yellow;
+  display: inline-block;
+  width: 200px;
+  height:200px;
+}
+
+p{
+  background-color: grey;
+  display: none;      /*make the content ivisible!*/
+
+}
+
+span{
+  background-color: blue;
+  display: block;
+  width: 100px;
+  height:100px;
+}
