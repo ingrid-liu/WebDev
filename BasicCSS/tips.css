@@ -7,3 +7,9 @@ h1{
 body{
   display: block;
 }
+
+span{
+  color: blue;
+  font-weight: bold;
+  font-size: 1.6em;
+}
