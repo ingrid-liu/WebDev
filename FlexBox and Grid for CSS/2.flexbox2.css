@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse;    /* wrap/ nowrap: make all the row/column wrapped to see*/ */
+  /* make the dispaly adjustable to the screen by itself */
+  flex-float:row wrap;
+}
+.box {
+  border: 1px solid blue;
+  padding: 10px;
+  flex-basis: 65%;
+  flex-shrink:0;
+}
