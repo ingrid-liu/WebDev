@@ -1,0 +1,117 @@
+.main-nav{
+  background-color: #ffff99;
+  font-family:monospace;
+
+  box-shadow:#e6e600 0px 5px 15px, inset #e6e600 0px -10px 20px;
+  /* inside the shadow, inside the box */
+  font-size:2em;
+
+}
+/* .main-nav > a {
+  color: white;
+  display: grid;
+  grid-gap: 10px;
+} */
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+ul{
+  display:flex;
+  list-style: none;
+  font-size: 16px;
+  color:black;
+  /* display: flex; */
+}
+
+li{
+  margin:auto;
+
+}
+
+.flexContainer{
+  /* background-color: yellow; */
+  box-shadow: rgba(0,0,0,0.5) 0px 5px 15px, inset rgba(0,0,0,0.5) 0px -10px 20px;
+  display: flex;
+}
+
+.top-container{
+  display: grid;
+  grid-template-rows: aoto;
+  grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+}
+
+p{
+  font-family: monospace;
+  font-size:1.2em;
+  padding: 10px;
+
+}
+
+
+.container{
+  background-color: #efeff5;
+  box-shadow: rgba(0,0,0,0.5) 0px 5px 15px, inset rgba(0,0,0,0.5) 0px -10px 20px;
+  display: grid;
+  /* grid-template: 1fr / repeat(auto-fit minmax(200px, 1fr)); */
+  grid-gap: 20px;
+  padding: 20px;
+
+  /* grid-template: 100px 200px 300px / repeat(3, 1fr);
+  grid-template-areas: "A A B"
+                       "D E B"
+                       "F G H"
+                       "C C I" */
+}
+
+.box{
+  margin: 20px;
+  padding: 20px;
+  background-color: #efeff5;
+
+}
+
+.flexContainer > img {
+    width: 30%;
+}
+
+.box > img {
+  width: 10%;
+}
+/*
+.box1 {
+  grid-area: A;
+}
+
+.box2 {
+  grid-area: B;
+}
+
+.box3 {
+  grid-area: C;
+}
+
+.box4 {
+  grid-area: D;
+}
+
+.box5 {
+  grid-area: E;
+}
+
+.box6 {
+  grid-area: F;
+}
+
+.box7 {
+  grid-area: G;
+}
+
+.box8 {
+  grid-area: H;
+}
+
+.box9 {
+  grid-area: I;
+} */

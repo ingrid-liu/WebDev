@@ -1,0 +1,54 @@
+
+.container {
+  border: 1px solid cyan;
+  padding: 10px;
+  display:grid;
+  flex: auto;
+  grid-template: 100px 200px 300px / repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-areas: "A A B"
+                       "D E B"
+                       "F G H"
+                       "C C I"
+}
+
+.box {
+  background: pink;
+  border: 1px solid cyan;
+}
+
+.box1 {
+  grid-area: A;
+}
+
+.box2 {
+  grid-area: B;
+}
+
+.box3 {
+  grid-area: C;
+}
+
+.box4 {
+  grid-area: D;
+}
+
+.box5 {
+  grid-area: E;
+}
+
+.box6 {
+  grid-area: F;
+}
+
+.box7 {
+  grid-area: G;
+}
+
+.box8 {
+  grid-area: H;
+}
+
+.box9 {
+  grid-area: I;
+}
