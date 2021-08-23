@@ -1,0 +1,42 @@
+h1{
+  font-size: 55px;
+  font-family: monospace;
+  color: #000000;
+}
+p{
+  font-family: monospace;
+  color: rgb(45, 9, 9);
+}
+
+
+.button-primary{
+  font-family: monospace;
+  width: 200px;
+  height: 60px;
+  background-color:  rgb(110, 241, 241);
+  border-radius: 0;
+  border-color: rgb(110, 241, 241);
+  border-style: hidden;
+}
+
+a{
+  font-family: inherit;
+  color: rgb(27, 145, 147);
+}
+
+th{
+  font-family: inherit;
+  width: 200px;
+}
+
+
+td{
+  font-family: inherit;
+  line-height: 350%;
+
+
+}
+
+td.a{
+  color: red;
+}
